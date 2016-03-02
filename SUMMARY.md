@@ -2,5 +2,5 @@
 
 * [Introduction](README.md)
 * [Developers](chapter1.md)
-   * The codebase
+   * [The codebase](codebase.md)
 
