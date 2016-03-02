@@ -1,3 +1,6 @@
 # Summary
 
-* [First Chapter](chapter1.md)
+* [Introduction](README.md)
+* [Developers](developers.md)
+   * [The codebase](codebase.md)
+
