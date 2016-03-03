@@ -5,8 +5,9 @@ imapfw is a framework. As such, its internals are a bit uncommon for most users.
 Internally, there are some implementation concepts that worth to be aware of. The most important are:
 * **concurrency**
 * **workers**
+* **events and passing by message**
 
-## Concurrency
+## Concurrency and workers
 
 The **concurrency** is a module to use a single and very simple API whatever the Python backend in use (`multiprocessing` or `threading`). If you want to hack on this, bear in mind that while they expose very similar APIs, they come with subtle differences it's better to avoid introducing in the long run. This is a reason why we force using only a small subset of their API.
 
