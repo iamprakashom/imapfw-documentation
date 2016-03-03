@@ -5,5 +5,5 @@
    * [The codebase](codebase.md)
 * [Users](users/users.md)
    * [The rascal](users/rascal.md)
-   * users/getting-started.md
+   * [users/getting-started.md](users/getting-started.md)
 
