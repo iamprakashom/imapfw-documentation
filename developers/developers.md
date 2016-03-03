@@ -6,6 +6,8 @@ Internally, there are some implementation concepts that worth to be aware of. Th
 * **concurrency**
 * **workers**
 * **events and passing by message**
+* **drivers**
+* **controllers**
 
 ## Concurrency and workers
 
