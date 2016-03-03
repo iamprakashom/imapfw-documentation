@@ -4,4 +4,5 @@
 * [Developers](developers.md)
    * [The codebase](codebase.md)
 * [Users](users/users.md)
+   * The rascal
 
