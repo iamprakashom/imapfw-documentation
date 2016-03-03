@@ -1,3 +1,6 @@
+
+Let's start with the global architecture.
+
 ## How the program boots
 
 > A top-down approach.
