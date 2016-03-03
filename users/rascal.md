@@ -6,7 +6,7 @@
 
 ### The rascal
 
-Here's an extract of the [rascal](https://github.com/OfflineIMAP/imapfw/tree/next/rascals):
+Here's a sample [rascal](https://github.com/OfflineIMAP/imapfw/tree/next/rascals):
 
 ``` python
 
@@ -21,7 +21,6 @@ __VERSION__ = 0.1
 # The main configuration options are set in this dict.
 #
 MainConf = {
-    'concurrency_backend': 'multiprocessing',
     'max_sync_accounts': 2,
 }
 
@@ -125,7 +124,7 @@ The imports are what makes the framework so powerfull. They allow users to **red
 
 Because actions, engines, types and drivers are well orthogonal and distinct concepts, extending imapfw should be much easier than it was with OfflineIMAP.
 
-## A brief introduction about imapfw's internals
+# A brief introduction about imapfw's internals
 
 Internally, there are other implementation concepts that some of you might like to be aware of. The most important are the **concurrency**, the **workers** and the **managers**.
 
