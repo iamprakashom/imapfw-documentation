@@ -111,9 +111,9 @@ How everything is linked is important: it's possible to decide what type uses wh
 
 Now, look at the imports:
 
-{% highlight python %}
+``` python
 from imapfw.api import actions, engines, types, drivers
-{% endhighlight %}
+```
 
 * **actions** are the actions available from the command line.
 * **engines** allows to define the default engine to use for the action (if this action supports more than one engine). It can be redefined at the CLI!
