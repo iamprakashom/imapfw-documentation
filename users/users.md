@@ -1,6 +1,6 @@
 # Getting started
 
-A good start is to fork the project and look at the CLI options:
+A good start is to run the command and look at the CLI options:
 
 ``` bash
 $ ./imapfw.py -h
