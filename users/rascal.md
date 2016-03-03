@@ -1,5 +1,7 @@
 # The rascal
 
+> TODO: review, partially obsolete.
+
 A good start is to fork the project and look at the CLI options:
 
 ``` bash
