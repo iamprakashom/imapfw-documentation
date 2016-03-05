@@ -4,14 +4,13 @@
 
 Here's a [sample rascal](https://github.com/OfflineIMAP/imapfw/blob/master/rascals/one.rascal.example) ([more rascals](https://github.com/OfflineIMAP/imapfw/tree/next/rascals)).
 
-* The first thing to notice is that configuration options are dictionnaries. Forget the INI style. I aim simple users to not have to write ONE line of Python code.
+* The first thing to notice is that configuration options are dictionaries.
 * OfflineIMAP users should feel comfortable reading this file. It follows almost the same semantic and the same logic around **accounts**.
-* Most experienced users will notice the classes. Here is the hierarchy and how
-  they are logically linked:
-  * an account is defined (derivates from `types.Account`) with both `left` and `right` "repositories".
-  * a "repository" *(I'm about to fully remove this term)* maps to a configuration dictionary and a driver to actually access it. It derivates from the associated type (`types.Maildir`, `types.Imap`, etc) and the drivers are similar (`drivers.Maildir`, `drivers.Imap`, etc).
+* Most experienced users will notice the classes. Here is the hierarchy and how they are logically linked:
+  * an account is defined (derives from `types.Account`) with both`left` and `right` "repositories".
+  * a "repository" maps to a configuration dictionary and a driver to actually access it. It derives from the associated type (`types.Maildir`, `types.Imap`, etc) and the drivers are similar (`drivers.Maildir`, `drivers.Imap`, etc).
 
-On top of this, each **type** acts as a controller for the underlying driver. I expect experimented users to make most of their *"crappy"* things^W^W tuning here. ,-) Think about filtering folders, nametrans, etc.
+> TODO: review
 
 How everything is linked is important: it's possible to decide what type uses which driver for what account.
 
